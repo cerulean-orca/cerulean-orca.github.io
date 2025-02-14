@@ -1,5 +1,3 @@
-Here you can say lots of fun things about your site.
+My adventures in building an outbound engine, sometimes by myself and sometimes asking our founder for help.
 
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+The goal is to automate %80 of emails so I can focus on the top accounts.
