@@ -1,10 +1,10 @@
-## Blog Post Title From First Header
+## Stopping Bill Murray Syndrome
 
-Due to a plugin called `jekyll-titles-from-headings` which is supported by GitHub Pages by default. The above header (in the markdown file) will be automatically used as the pages title.
+For a long time I had the feeling that each week was a new start to my sales journey. I struggled to chain days and weeks together, which made my follow-up's inconsistent. I was like the family cat that disappears only to come back 6 months later, without any acknowledgement that I am weird and mysterious.
 
-If the file does not start with a header, then the post title will be derived from the filename.
+The main reason for my Groundhog Day sales journey was that we're a bootstrapped company and our founder is as tough as early Amazon Jeff B. in controlling costs. Combined with the horrible design of most CRM's and our record keeping was spread out across an ever expanding number of Google Sheets.
 
-This is a sample blog post. You can talk about all sorts of fun things here.
+This week, I decided to change that. My goal is to have a clear view of who I will follow-up with next week from this week. 
 
 ---
 
