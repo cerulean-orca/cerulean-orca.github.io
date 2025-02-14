@@ -22,7 +22,7 @@ is:sent from:(email address) after:2025/month.number/day.number before:2025/mont
 
 is the way to go.
 
-<img src="[EMLF-script-snippet.png](https://github.com/cerulean-orca/blog-images/blob/main/EMLF-script-snippet.png)">
+<img src="[EMLF-script-snippet.png](https://github.com/cerulean-orca/blog-images/blob/main/EMLF-script-snippet.png)](https://github.com/cerulean-orca/blog-images/blob/main/EMLF-script-snippet.png)">
 
 #### Some T-SQL Code
 
