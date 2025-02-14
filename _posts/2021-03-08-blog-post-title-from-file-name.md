@@ -22,25 +22,97 @@ is:sent from:(email address) after:2025/month.number/day.number before:2025/mont
 
 is the way to go.
 
-<img src="[EMLF-script-snippet.png](https://github.com/cerulean-orca/blog-images/blob/main/EMLF-script-snippet.png)](https://github.com/cerulean-orca/blog-images/blob/main/EMLF-script-snippet.png)">
+Once we have a list of emails, we can select Forward as Attachment in the 3 dots button.
 
-#### Some T-SQL Code
+![Google Apps Scrips screenshot](https://github.com/cerulean-orca/blog-images/blob/main/Forward%20as%20attachment%20screenshot.png)"
 
-```tsql
-SELECT This, [Is], A, Code, Block -- Using SSMS style syntax highlighting
-    , REVERSE('abc')
-FROM dbo.SomeTable s
-    CROSS JOIN dbo.OtherTable o;
-```
+We get compressed meta data of our messages as an email - which we could then upload to Google Drive.
 
-#### Some PowerShell Code
+#### Google Apps Script
 
-```powershell
-Write-Host "This is a powershell Code block";
+![Google Apps Scrips screenshot](https://raw.githubusercontent.com/cerulean-orca/blog-images/refs/heads/main/EMLF-script-snippet.png)"
 
-# There are many other languages you can use, but the style has to be loaded first
+Once our files are in Google Drive, all we have to do to get them in our Google Sheets is run the script below:
 
-ForEach ($thing in $things) {
-    Write-Output "It highlights it using the GitHub style"
+#### EMLF Google Script
+
+```function processEMLFiles() {
+  try {
+    // Get the active spreadsheet
+    const ss = SpreadsheetApp.getActiveSpreadsheet();
+    const sheet = ss.getSheetByName('Email Data') || ss.insertSheet('Email Data');
+    
+    // Set up headers
+    const headers = ['Filename', 'From', 'To', 'Date Sent'];
+    sheet.getRange(1, 1, 1, headers.length).setValues([headers]);
+    
+    // Get all files in the user's Drive with the correct MIME type for EML files
+    const files = DriveApp.getFilesByType('message/rfc822');
+    let row = 2; // Start after headers
+    let processedFiles = 0;
+    
+    // Process each EML file
+    while (files.hasNext()) {
+      const file = files.next();
+      Logger.log('Processing file: ' + file.getName());
+      
+      try {
+        const content = file.getBlob().getDataAsString();
+        
+        // Extract and clean metadata
+        const filename = file.getName();
+        const from = cleanEmailField(extractHeader(content, 'From'));
+        const to = cleanEmailField(extractHeader(content, 'To'));
+        const date = extractHeader(content, 'Date');
+        
+        // Write to spreadsheet
+        sheet.getRange(row, 1, 1, 4).setValues([[
+          filename,
+          from,
+          to,
+          date
+        ]]);
+        
+        row++;
+        processedFiles++;
+      } catch (fileError) {
+        Logger.log('Error processing file ' + file.getName() + ': ' + fileError.toString());
+        continue;
+      }
+    }
+    
+    Logger.log('Processing complete! Processed ' + processedFiles + ' files');
+    
+    // Auto-resize columns to fit content
+    sheet.autoResizeColumns(1, headers.length);
+    
+  } catch (error) {
+    Logger.log('Error: ' + error.toString());
+    throw error;
+  }
+}
+
+function extractHeader(content, headerName) {
+  const regex = new RegExp(`^${headerName}: (.*)$`, 'mi');
+  const match = content.match(regex);
+  return match ? match[1].trim() : '';
+}
+
+function cleanEmailField(emailString) {
+  if (!emailString) return '';
+  
+  // Handle both formats: "Name <email>" and "<email>"
+  let cleanedString = emailString;
+  
+  // Strip any quotes at the beginning and end
+  cleanedString = cleanedString.replace(/^"|"$/g, '');
+  
+  // Extract just the email address if it's in angle brackets
+  const emailMatch = cleanedString.match(/<([^>]+)>/);
+  if (emailMatch) {
+    return emailMatch[1]; // Return just the email address without brackets
+  }
+  
+  return cleanedString;
 }
 ```
