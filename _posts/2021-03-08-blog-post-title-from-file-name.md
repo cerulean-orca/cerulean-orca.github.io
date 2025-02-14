@@ -24,13 +24,13 @@ is the way to go.
 
 Once we have a list of emails, we can select Forward as Attachment in the 3 dots button.
 
-![Google Apps Scrips screenshot](https://github.com/cerulean-orca/blog-images/blob/main/Forward%20as%20attachment%20screenshot.png)"
+![Google Apps Scrips screenshot](https://github.com/cerulean-orca/blog-images/blob/main/Forward%20as%20attachment%20screenshot.png)
 
 We get compressed meta data of our messages as an email - which we could then upload to Google Drive.
 
 #### Google Apps Script
 
-![Google Apps Scrips screenshot](https://raw.githubusercontent.com/cerulean-orca/blog-images/refs/heads/main/EMLF-script-snippet.png)"
+![Google Apps Scrips screenshot](https://raw.githubusercontent.com/cerulean-orca/blog-images/refs/heads/main/EMLF-script-snippet.png)
 
 Once our files are in Google Drive, all we have to do to get them in our Google Sheets is run the script below:
 
