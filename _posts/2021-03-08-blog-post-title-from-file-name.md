@@ -8,7 +8,21 @@ This week, I decided to change that. My goal is to have a clear view of who I wi
 
 ---
 
-### This is a header
+### Exporting from Google
+
+The Gmail design is always changing slightly, which makes most tutorials on the internet obselete. 
+
+For example, there were a lot of pages suggesting that Gmail had a "download" feature when you clicked on the 3 dots button. That is no more. 
+
+To export from Gmail, we have 2 options. The first is form Takeout, but that only allows us to export ALL our emails.
+
+I only want to export SENT emails from a certain day or 5 day business week. 
+
+is:sent from:(email address) after:2025/month.number/day.number before:2025/month.number/day.number
+
+is the way to go.
+
+
 
 #### Some T-SQL Code
 
