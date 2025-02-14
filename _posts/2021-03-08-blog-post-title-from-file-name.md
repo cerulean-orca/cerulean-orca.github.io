@@ -116,3 +116,10 @@ function cleanEmailField(emailString) {
   return cleanedString;
 }
 ```
+
+Great!
+
+We can now run a weekly transfer of our sent emails and make them static in Google Sheets.
+
+This is maybe a slight leap forward, but paves the way for us to stop slipping deals. 
+
