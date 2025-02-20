@@ -27,4 +27,19 @@ And some take the pain in stride and get used to it.
 Once you do decide to evolve - the next step is 2nd gear.
 Where you increase the risk to gain more momentum. 
 
+This is where it's best to think of Jeff Bezos and Amazon's shitty desks. 
+I know they were s**tyy because I was inspired to cut out my door frame and use it just as I read in the book.
+The doors wobble and creak too much, it's pretty annoying.
+
+But paying for sales software and not utilizing it to its max is even more annoying.
+Instead, in 2nd gear, we hack together a free Sales Stack.
+
+Apollo.io is central to this. 
+The free plan allows you to connect your inbox and send with your company alias.
+
+The leads database is huge and you also get unlimited email finding credits.
+You just can't export them.
+
+So let's say that you used up your 2 sequence right.
+You want to go for 3rd.
 
