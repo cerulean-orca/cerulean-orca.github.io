@@ -51,13 +51,13 @@ You want to go for 3rd.
 You select all the contacts in a sequence.
 Then you add them to a list, with the same name as the sequence.
 
-![Screenshot of Apollo sales software](https://github.com/cerulean-orca/blog-images/blob/main/Screen%20Shot%202025-02-21%20at%2017.17.44.png)
+![Screenshot of Apollo sales software](https://github.com/cerulean-orca/blog-images/blob/main/Screen%20Shot%202025-02-21%20at%2017.17.44.png?raw=true)
 
-![Screenshot of Apollo sales software](https://github.com/cerulean-orca/blog-images/blob/main/Screen%20Shot%202025-02-21%20at%2017.18.10.png)
+![Screenshot of Apollo sales software](https://github.com/cerulean-orca/blog-images/blob/main/Screen%20Shot%202025-02-21%20at%2017.18.10.png?raw=true)
 
 Now, when you're in the database looking for new friends to make, you can exclude multiple lists.
 
-![Screenshot of Apollo sales software](https://github.com/cerulean-orca/blog-images/blob/main/Screen%20Shot%202025-02-21%20at%2017.19.05.png)
+![Screenshot of Apollo sales software](https://github.com/cerulean-orca/blog-images/blob/main/Screen%20Shot%202025-02-21%20at%2017.19.05.png?raw=true)
 
 After your lists are complete you can archive your sequence and start again.
 That way, you'll be able to manage 2 sequences running in parallel, until you reach a major part of your TAM.
