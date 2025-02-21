@@ -18,7 +18,7 @@ So you start calling and sending emails.
 This is 1st gear.
 You're not going fast but you're safe.
 
-![Porsche wood gear shift](https://github.com/cerulean-orca/blog-images/blob/main/porsche%20gear%20shift%20wood.jpeg)
+![Porsche wood gear shift](https://github.com/cerulean-orca/blog-images/blob/main/porsche%20gear%20shift%20wood.jpeg?raw=true)
 
 After a certain number of messages, rejections and broken dreams - you decide you're worth more than this.
 For some, the click happens after 6 months.
