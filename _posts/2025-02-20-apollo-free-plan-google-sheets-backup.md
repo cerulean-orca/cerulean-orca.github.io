@@ -34,12 +34,37 @@ The doors wobble and creak too much, it's pretty annoying.
 But paying for sales software and not utilizing it to its max is even more annoying.
 Instead, in 2nd gear, we hack together a free Sales Stack.
 
-Apollo.io is central to this. 
+# Apollo.io is central to this. 
+
 The free plan allows you to connect your inbox and send with your company alias.
 
 The leads database is huge and you also get unlimited email finding credits.
-You just can't export them.
+You just can't export them. That means you can only send inside the system.
 
 So let's say that you used up your 2 sequence right.
 You want to go for 3rd.
+
+![Screenshot of Apollo sales software](https://github.com/cerulean-orca/blog-images/blob/main/Screen%20Shot%202025-02-21%20at%2017.17.16.png)
+
+You select all the contacts in a sequence.
+Then you add them to a list, with the same name as the sequence.
+
+![Screenshot of Apollo sales software](https://github.com/cerulean-orca/blog-images/blob/main/Screen%20Shot%202025-02-21%20at%2017.17.44.png)
+
+![Screenshot of Apollo sales software](https://github.com/cerulean-orca/blog-images/blob/main/Screen%20Shot%202025-02-21%20at%2017.18.10.png)
+
+Now, when you're in the database looking for new friends to make, you can exclude multiple lists.
+
+![Screenshot of Apollo sales software](https://github.com/cerulean-orca/blog-images/blob/main/Screen%20Shot%202025-02-21%20at%2017.19.05.png)
+
+After your lists are complete you can archive your sequence and start again.
+That way, you'll be able to manage 2 sequences running in parallel, until you reach a major part of your TAM.
+
+Our founder loves these kinds of constraints that force you to move slower and more deliberately. As a designer, he eats constraints for lunch and dinner. (No breakfast, intermittent fasting.)
+
+It gets trickier if you have multiple email addresses.
+Like me. 
+
+I'm trying to impose disipline, by focusing one address on companies with 100-200 employees and the other on 200-500 employees.
+
 
