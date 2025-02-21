@@ -46,7 +46,7 @@ You just can't export them. That means you can only send inside the system.
 So let's say that you used up your 2 sequence right.
 You want to go for 3rd.
 
-![Screenshot of Apollo sales software](https://github.com/cerulean-orca/blog-images/blob/main/Screen%20Shot%202025-02-21%20at%2017.17.16.png)
+![Screenshot of Apollo sales software](https://github.com/cerulean-orca/blog-images/blob/main/Screen%20Shot%202025-02-21%20at%2017.17.16.png?raw=true)
 
 You select all the contacts in a sequence.
 Then you add them to a list, with the same name as the sequence.
